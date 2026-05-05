@@ -87,15 +87,14 @@ def artemis2():
 
         <div class="banner">
             <strong>PRIMEIRA MISSÃO TRIPULADA!</strong><br><br>
-            Artemis II foi a primeira missão humana ao redor da Lua desde 1972!<br>
-            Lançada em 1º de abril de 2026 com sucesso.
+            Artemis II será a primeira missão humana ao redor da Lua desde 1972!<br>
+            Lançamento previsto para final de 2025. Quatro astronautas farão um histórico voo de 10 dias 
+            a bordo da nave Orion com o foguete SLS. Teste crucial para Artemis III!
         </div>
 
         <div class="cards">
-            <!-- 1. Tripulação -->
             <div class="card">
-                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0e/Artemis_2_Crew_Portrait.jpg" 
-                     alt="Tripulação Artemis II">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-crew-1.jpg" alt="Tripulação">
                 <div class="card-content">
                     <h3>👨‍🚀 Tripulação</h3>
                     <p><strong>Reid Wiseman (Cmd)</strong> • <strong>Victor Glover (Pilot)</strong><br>
@@ -104,55 +103,47 @@ def artemis2():
                 </div>
             </div>
 
-            <!-- 2. SLS -->
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2026/04/artemis-ii-launch.jpg" 
-                     alt="Lançamento SLS Artemis II"
-                     onerror="this.src='https://images.unsplash.com/photo-1632854057158-901ae9f83d5b?w=800'">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/sls-artemis-i-liftoff-1.jpg" alt="SLS">
                 <div class="card-content">
                     <h3>🚀 Space Launch System</h3>
-                    <p>Foguete mais poderoso do mundo. Lançamento histórico em 1º de abril de 2026.</p>
+                    <p>Foguete mais poderoso do mundo! 98 metros de altura.<br>8,8 milhões de libras de empuxo.</p>
                 </div>
             </div>
 
-            <!-- 3. Orion -->
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2026/04/orion-artemis-ii-in-space.jpg" 
-                     alt="Nave Orion Artemis II"
-                     onerror="this.src='https://images.unsplash.com/photo-1444080233090-f3f9ca85e4a7?w=800'">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/orion-lunar-flyby-1.jpg" alt="Nave Orion">
                 <div class="card-content">
                     <h3>🌌 Nave Orion</h3>
-                    <p>Cápsula que levou os 4 astronautas ao redor da Lua com sucesso.</p>
+                    <p>Cápsula para 4 astronautas. Voo de 10 dias.<br>1º flyby lunar desde Apollo!</p>
                 </div>
             </div>
 
-            <!-- 4. Trajetória -->
+            <!-- Imagens corrigidas e estáveis -->
             <div class="card">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Artemis_II_art002e021278_earthset.jpg" 
-                     alt="Earthset - Vista da Terra">
+                     alt="Earthset - Artemis II">
                 <div class="card-content">
                     <h3>🛰️ Trajetória</h3>
-                    <p>10 dias • Mais de 1 milhão de km<br>
-                    Flyby lunar histórico e retorno seguro.</p>
+                    <p>10 dias • 1,3 milhões de km<br>
+                    Kennedy Space Center → Flyby da Lua → Retorno à Terra</p>
                 </div>
             </div>
 
-            <!-- 5. Objetivos -->
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2026/04/artemis-ii-moon-flyby.jpg" 
-                     alt="Flyby Lunar Artemis II"
-                     onerror="this.src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800'">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200" 
+                     alt="Objetivos Artemis II">
                 <div class="card-content">
-                    <h3>🎯 Objetivos Cumpridos</h3>
-                    <p>✅ Teste com tripulação<br>
-                    ✅ 1ª mulher e 1º canadense<br>
-                    ✅ Preparação para pouso lunar</p>
+                    <h3>🎯 Objetivos</h3>
+                    <p>✅ Testar Orion + SLS com humanos<br>
+                    ✅ 1ª mulher e 1º canadense em voo lunar<br>
+                    ✅ Preparar Artemis III (pouso lunar)</p>
                 </div>
             </div>
         </div>
 
         <footer>
-            <p>🌟 Artemis II - Sucesso Histórico da Nova Era Lunar | NASA 2026</p>
+            <p>🌟 Artemis II - A primeira luz da nova era lunar | NASA</p>
             <p>Desenvolvido com ❤️ | Flask</p>
         </footer>
     </div>
