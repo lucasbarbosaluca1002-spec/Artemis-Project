@@ -112,7 +112,7 @@ def artemis2():
             </div>
 
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/orion-lunar-flyby-1.jpg" alt="Nave Orion">
+                <img src="https://www.nationalgeographicbrasil.com/espaco/2022/08/como-o-programa-artemis-da-nasa-planeja-enviar-novamente-astronautas-a-lua" alt="Nave Orion">
                 <div class="card-content">
                     <h3>🌌 Nave Orion</h3>
                     <p>Cápsula para 4 astronautas. Voo de 10 dias.<br>1º flyby lunar desde Apollo!</p>
