@@ -32,22 +32,22 @@ def artemis2():
             padding:40px 20px 20px;
         }
         .logo{
-            max-width:320px;
+            max-width:380px;
             height:auto;
-            margin-bottom:20px;
-            filter: drop-shadow(0 0 20px #ffd700);
+            margin-bottom:15px;
+            filter: drop-shadow(0 0 25px #ffd700);
         }
         h1{
-            font-size:3.5rem;
+            font-size:3.8rem;
             background: linear-gradient(90deg, #ffd700, #fff, #ffd700);
             -webkit-background-clip:text;
             background-clip:text;
             -webkit-text-fill-color:transparent;
-            text-shadow: 0 0 30px rgba(255,215,0,0.6);
+            text-shadow: 0 0 30px rgba(255,215,0,0.7);
             margin-bottom:10px;
         }
         .banner{
-            background: rgba(0, 50, 120, 0.85);
+            background: rgba(0, 50, 120, 0.9);
             border: 2px solid #ffd700;
             border-radius: 20px;
             padding: 25px;
@@ -76,7 +76,7 @@ def artemis2():
         }
         .card img{
             width:100%;
-            height:220px;
+            height:230px;
             object-fit: cover;
         }
         .card-content{
@@ -86,19 +86,19 @@ def artemis2():
         .card h3{
             color: #ffd700;
             margin-bottom: 12px;
-            font-size: 1.35em;
+            font-size: 1.4em;
         }
 
         footer{
             text-align:center;
             padding:40px 20px;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0,0,0,0.6);
             border-radius: 20px;
             margin-top: 60px;
         }
         @media(max-width:768px){
             .cards{grid-template-columns: 1fr;}
-            h1{font-size:2.8rem;}
+            h1{font-size:2.9rem;}
         }
     </style>
 </head>
@@ -107,25 +107,24 @@ def artemis2():
     
     <div class="container">
         <header>
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-logo.jpg" 
-                 alt="Logo Artemis II" class="logo"
-                 onerror="this.src='https://via.placeholder.com/320x180/001a3d/ffd700?text=ARTEMIS+II'">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Artemis_Logo_NASA.png" 
+                 alt="Logo Oficial Artemis II" class="logo"
+                 onerror="this.src='https://via.placeholder.com/380x200/001a3d/ffd700?text=ARTEMIS+II'">
             <h1>ARTEMIS II</h1>
         </header>
 
         <div class="banner">
             <strong>PRIMEIRA MISSÃO TRIPULADA!</strong><br><br>
             Artemis II será a primeira missão humana ao redor da Lua desde 1972!<br>
-            Lançamento previsto para final de 2025. Quatro astronautas farão histórico voo de 10 dias 
-            a bordo da nave Orion com o foguete SLS (Space Launch System). Teste crucial para Artemis III (pouso lunar 2026)!
+            Lançamento previsto para final de 2025. Quatro astronautas farão um histórico voo de 10 dias 
+            a bordo da nave Orion com o foguete SLS. Teste crucial para Artemis III (pouso lunar em 2026)!
         </div>
 
         <div class="cards">
             <!-- Tripulação -->
             <div class="card">
                 <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-crew-1.jpg" 
-                     alt="Tripulação" 
-                     onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800'">
+                     alt="Tripulação Artemis II">
                 <div class="card-content">
                     <h3>👨‍🚀 Tripulação</h3>
                     <p><strong>Reid Wiseman (Cmd)</strong> • <strong>Victor Glover (Pilot)</strong><br>
@@ -137,8 +136,7 @@ def artemis2():
             <!-- SLS -->
             <div class="card">
                 <img src="https://www.nasa.gov/wp-content/uploads/2023/11/sls-artemis-i-liftoff-1.jpg" 
-                     alt="SLS" 
-                     onerror="this.src='https://images.unsplash.com/photo-1632854057158-901ae9f83d5b?w=800'">
+                     alt="Space Launch System">
                 <div class="card-content">
                     <h3>🚀 Space Launch System</h3>
                     <p>Foguete mais poderoso do mundo! 98 metros de altura.<br>
@@ -149,8 +147,7 @@ def artemis2():
             <!-- Orion -->
             <div class="card">
                 <img src="https://www.nasa.gov/wp-content/uploads/2023/11/orion-lunar-flyby-1.jpg" 
-                     alt="Nave Orion" 
-                     onerror="this.src='https://images.unsplash.com/photo-1444080233090-f3f9ca85e4a7?w=800'">
+                     alt="Nave Orion">
                 <div class="card-content">
                     <h3>🌌 Nave Orion</h3>
                     <p>Cápsula para 4 astronautas. Voo de 10 dias.<br>
@@ -158,28 +155,27 @@ def artemis2():
                 </div>
             </div>
 
-            <!-- Trajetória -->
+            <!-- Trajetória - Imagem corrigida -->
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1614730321146-b6fa6a42b7df?w=800" 
-                     alt="Trajetória" 
-                     onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800'">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Artemis_II_art002e021278_earthset.jpg" 
+                     alt="Vista da Terra - Artemis II"
+                     onerror="this.src='https://images.unsplash.com/photo-1614730321146-b6fa6a42b7df?w=800'">
                 <div class="card-content">
                     <h3>🛰️ Trajetória</h3>
-                    <p>10 dias • 1,3 milhões km<br>
-                    Lançamento Kennedy Space Center → Flyby da Lua → Retorno</p>
+                    <p>10 dias • 1,3 milhões de km<br>
+                    Kennedy Space Center → Órbita Lunar → Retorno à Terra</p>
                 </div>
             </div>
 
-            <!-- Objetivos -->
+            <!-- Objetivos - Imagem corrigida -->
             <div class="card">
                 <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" 
-                     alt="Objetivos" 
-                     onerror="this.src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800'">
+                     alt="Objetivos Artemis II">
                 <div class="card-content">
                     <h3>🎯 Objetivos</h3>
                     <p>✅ Testar Orion + SLS com humanos<br>
                     ✅ 1ª mulher e 1º canadense em voo lunar<br>
-                    ✅ Preparar Artemis III (pouso 2026)</p>
+                    ✅ Preparar Artemis III (pouso lunar 2026)</p>
                 </div>
             </div>
         </div>
@@ -197,7 +193,7 @@ def artemis2():
             star.className = 'star';
             star.style.left = Math.random() * 100 + 'vw';
             star.style.top = Math.random() * 100 + 'vh';
-            star.style.width = (1 + Math.random() * 3) + 'px';
+            star.style.width = (1 + Math.random() * 3.5) + 'px';
             star.style.height = star.style.width;
             star.style.animationDelay = Math.random() * 3 + 's';
             document.getElementById('stars').appendChild(star);
@@ -210,4 +206,3 @@ def artemis2():
 if __name__ == "__main__":
     port = int(os.environ.get('PORT', 5000))
     app.run(host='0.0.0.0', port=port, debug=True)
-
