@@ -27,16 +27,8 @@ def artemis2():
 
         .container{max-width:1200px;margin:0 auto;padding:20px;}
         
-        header{
-            text-align:center;
-            padding:40px 20px 20px;
-        }
-        .logo{
-            max-width:420px;
-            height:auto;
-            margin-bottom:15px;
-            filter: drop-shadow(0 0 30px #ffd700);
-        }
+        header{text-align:center;padding:40px 20px 20px;}
+        .logo{max-width:420px;height:auto;margin-bottom:15px;filter: drop-shadow(0 0 30px #ffd700);}
         h1{
             font-size:3.8rem;
             background: linear-gradient(90deg, #ffd700, #fff, #ffd700);
@@ -68,25 +60,10 @@ def artemis2():
             transition: all 0.4s;
             border: 1px solid rgba(255,215,0,0.2);
         }
-        .card:hover{
-            transform: translateY(-15px);
-            box-shadow: 0 25px 50px rgba(255,215,0,0.25);
-            border-color: #ffd700;
-        }
-        .card img{
-            width:100%;
-            height:230px;
-            object-fit: cover;
-        }
-        .card-content{
-            padding: 20px;
-            text-align: center;
-        }
-        .card h3{
-            color: #ffd700;
-            margin-bottom: 12px;
-            font-size: 1.4em;
-        }
+        .card:hover{transform: translateY(-15px); box-shadow: 0 25px 50px rgba(255,215,0,0.25); border-color: #ffd700;}
+        .card img{width:100%; height:230px; object-fit: cover;}
+        .card-content{padding: 20px; text-align: center;}
+        .card h3{color: #ffd700; margin-bottom: 12px; font-size: 1.4em;}
 
         footer{
             text-align:center;
@@ -95,10 +72,7 @@ def artemis2():
             border-radius: 20px;
             margin-top: 60px;
         }
-        @media(max-width:768px){
-            .cards{grid-template-columns: 1fr;}
-            h1{font-size:2.9rem;}
-        }
+        @media(max-width:768px){.cards{grid-template-columns: 1fr;} h1{font-size:2.9rem;}}
     </style>
 </head>
 <body>
@@ -106,10 +80,8 @@ def artemis2():
     
     <div class="container">
         <header>
-            <!-- Logo mais confiável -->
             <img src="https://upload.wikimedia.org/wikipedia/commons/6/60/Artemis_Logo_NASA.png" 
-                 alt="Logo Oficial Artemis II" class="logo"
-                 onerror="this.src='https://via.placeholder.com/420x200/001a3d/ffd700?text=ARTEMIS+II'">
+                 alt="Logo Oficial Artemis II" class="logo">
             <h1>ARTEMIS II</h1>
         </header>
 
@@ -117,7 +89,7 @@ def artemis2():
             <strong>PRIMEIRA MISSÃO TRIPULADA!</strong><br><br>
             Artemis II será a primeira missão humana ao redor da Lua desde 1972!<br>
             Lançamento previsto para final de 2025. Quatro astronautas farão um histórico voo de 10 dias 
-            a bordo da nave Orion com o foguete SLS. Teste crucial para Artemis III (pouso lunar em 2026)!
+            a bordo da nave Orion com o foguete SLS. Teste crucial para Artemis III!
         </div>
 
         <div class="cards">
@@ -147,11 +119,10 @@ def artemis2():
                 </div>
             </div>
 
-            <!-- Imagem da Trajetória / Terra corrigida -->
+            <!-- Imagens corrigidas e estáveis -->
             <div class="card">
                 <img src="https://upload.wikimedia.org/wikipedia/commons/8/80/Artemis_II_art002e021278_earthset.jpg" 
-                     alt="Earthset - Artemis II"
-                     onerror="this.src='https://images.unsplash.com/photo-1614730321146-b6fa6a42b7df?w=800'">
+                     alt="Earthset - Artemis II">
                 <div class="card-content">
                     <h3>🛰️ Trajetória</h3>
                     <p>10 dias • 1,3 milhões de km<br>
@@ -159,15 +130,14 @@ def artemis2():
                 </div>
             </div>
 
-            <!-- Imagem dos Objetivos -->
             <div class="card">
-                <img src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800" 
-                     alt="Objetivos">
+                <img src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=1200" 
+                     alt="Objetivos Artemis II">
                 <div class="card-content">
                     <h3>🎯 Objetivos</h3>
                     <p>✅ Testar Orion + SLS com humanos<br>
                     ✅ 1ª mulher e 1º canadense em voo lunar<br>
-                    ✅ Preparar Artemis III (pouso 2026)</p>
+                    ✅ Preparar Artemis III (pouso lunar)</p>
                 </div>
             </div>
         </div>
