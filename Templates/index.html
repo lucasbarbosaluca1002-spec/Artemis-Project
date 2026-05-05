@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Missão Artemis - NASA</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { 
+            font-family: Arial, sans-serif; 
+            background: linear-gradient(135deg, #0c0c0c 0%, #1a1a2e 50%, #16213e 100%);
+            color: #fff; min-height: 100vh;
+        }
+        .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+        header { 
+            text-align: center; 
+            padding: 40px 0; 
+            background: rgba(255,255,255,0.1); 
+            backdrop-filter: blur(10px);
+            border-radius: 20px; 
+            margin-bottom: 40px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+        }
+        .logo { 
+            width: 250px; 
+            height: auto; 
+            filter: drop-shadow(0 15px 30px rgba(255,255,255,0.4));
+            margin-bottom: 20px;
+            transition: transform 0.3s ease;
+        }
+        .logo:hover { transform: scale(1.05); }
+        h1 { 
+            font-size: 3.5em; 
+            text-shadow: 3px 3px 6px rgba(0,0,0,0.7); 
+            margin-bottom: 20px;
+            background: linear-gradient(45deg, #fff, #e0e0e0);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .mission-text { 
+            font-size: 1.4em; 
+            max-width: 900px; 
+            margin: 0 auto; 
+            padding: 0 20px;
+            line-height: 1.8;
+        }
+        .gallery { 
+            display: grid; 
+            grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); 
+            gap: 25px; 
+            margin-top: 60px; 
+        }
+        .gallery-item { 
+            background: rgba(255,255,255,0.1); 
+            border-radius: 20px; 
+            overflow: hidden; 
+            transition: all 0.4s ease; 
+            border: 1px solid rgba(255,255,255,0.2);
+            backdrop-filter: blur(10px);
+        }
+        .gallery-item:hover { 
+            transform: translateY(-15px) scale(1.02); 
+            box-shadow: 0 30px 60px rgba(0,0,0,0.4); 
+        }
+        .gallery-item img { 
+            width: 100%; 
+            height: 280px; 
+            object-fit: cover; 
+        }
+        .gallery-caption { 
+            padding: 25px; 
+            text-align: center; 
+            font-weight: bold; 
+            font-size: 1.1em;
+        }
+        footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 30px;
+            color: #aaa;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <!-- LOGO LOCAL -->
+            <img src="{{ url_for('static', filename='logo-artemis.png') }}" 
+                 alt="Logotipo Oficial Missão Artemis - NASA" class="logo">
+            <h1>🚀 MISSÃO ARTEMIS</h1>
+            <p class="mission-text">
+                <strong>Artemis</strong> é o programa da NASA para retornar humanos à Lua pela primeira vez 
+                desde 1972. <strong>Artemis I (2022):</strong> sucesso orbital. 
+                <strong>Artemis II (2025):</strong> primeira missão tripulada. 
+                <strong>Artemis III (2026):</strong> pouso da 1ª mulher e próximo homem na Lua!
+                <br><br>
+                <em>"Não apenas voltamos à Lua, ficamos lá!" - NASA</em>
+            </p>
+        </header>
+        
+        <section class="gallery">
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/artemis1.jpg') }}" alt="Lançamento SLS">
+                <div class="gallery-caption">🛫 Artemis I - Lançamento Space Launch System</div>
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/artemis2.jpg') }}" alt="Orion">
+                <div class="gallery-caption">🌌 Nave Orion em órbita lunar</div>
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/artemis3.jpg') }}" alt="Lua">
+                <div class="gallery-caption">🌕 Destino: Superfície Lunar</div>
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/artemis4.jpg') }}" alt="Astronauta">
+                <div class="gallery-caption">👩‍🚀 1ª Mulher na Lua - Artemis III</div>
+            </div>
+            <div class="gallery-item">
+                <img src="{{ url_for('static', filename='images/artemis5.jpg') }}" alt="Rocket">
+                <div class="gallery-caption">🚀 Space Launch System (SLS) - 98m de potência</div>
+            </div>
+        </section>
+        
+        <footer>
+            <p>© 2024 NASA - Missão Artemis | Projeto desenvolvido com ❤️ para Lua!</p>
+        </footer>
+    </div>
+</body>
+</html>
