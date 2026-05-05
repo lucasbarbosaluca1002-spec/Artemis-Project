@@ -23,6 +23,7 @@ def artemis2():
         .stars{position:fixed;top:0;left:0;width:100%;height:100%;pointer-events:none;z-index:-1;}
         .star{position:absolute;background:#fff;border-radius:50%;animation:twinkle 2s infinite;}
         @keyframes twinkle{0%,100%{opacity:0.3;}50%{opacity:1;}}
+        
         .container{max-width:1300px;margin:0 auto;padding:20px;}
         header{
             text-align:center;
@@ -36,6 +37,7 @@ def artemis2():
         }
         .logo{max-width:280px;height:auto;filter:drop-shadow(0 20px 40px rgba(255,215,0,0.5));margin-bottom:30px;animation:pulse 3s infinite;}
         @keyframes pulse{0%,100%{transform:scale(1);}50%{transform:scale(1.05);}}
+        
         h1{
             font-size:clamp(2.5em,8vw,5em);
             background:linear-gradient(45deg,#ffd700,#fff,#ffd700);
@@ -69,7 +71,6 @@ def artemis2():
             transition:all 0.5s ease;
             border:1px solid rgba(255,255,255,0.2);
             backdrop-filter:blur(15px);
-            transform:translateY(0);
         }
         .card:hover{
             transform:translateY(-20px) scale(1.02);
@@ -80,6 +81,7 @@ def artemis2():
         .card-content{padding:30px;text-align:center;}
         .card h3{font-size:1.4em;margin-bottom:15px;color:#ffd700;}
         .card p{line-height:1.6;color:#ddd;}
+        
         .footer{
             text-align:center;
             padding:50px 20px;
@@ -96,83 +98,91 @@ def artemis2():
     
     <div class="container">
         <header>
-            <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-logo.jpg?w=512" alt="Logo Artemis II NASA" class="logo" onerror="this.src='https://via.placeholder.com/280x200/004e92/ffffff?text=ARTEMIS+II'">
+            <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-logo.jpg" 
+                 alt="Logo Artemis II NASA" 
+                 class="logo"
+                 onerror="this.src='https://via.placeholder.com/280x200/004e92/ffffff?text=ARTEMIS+II'">
             <h1>ARTEMIS II</h1>
             <div class="info">
-                <strong>PRIMEIRA MISSÃO TRIPULADA!</strong><br>
-                Artemis II será a <strong>primeira missão humana ao redor da Lua</strong> desde 1972!
-                Lançamento previsto para <strong>final de 2025</strong>. Quatro astronautas farão 
-                histórico voo de 10 dias a bordo da <strong>nave Orion</strong> com o foguete 
-                <strong>SLS (Space Launch System)</strong>. Teste crucial para Artemis III (pouso lunar 2026)!
+                <strong>SUCESSO HISTÓRICO!</strong><br>
+                Primeira missão tripulada ao redor da Lua desde 1972.<br>
+                Lançada em <strong>1º de abril de 2026</strong>. Quatro astronautas a bordo da <strong>Orion</strong> com o foguete <strong>SLS</strong>.<br>
+                <strong>Christina Koch</strong> — a primeira mulher em voo lunar — e <strong>Jeremy Hansen</strong> — o primeiro canadense.
             </div>
         </header>
 
         <section class="gallery">
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-crew-1.jpg?w=800" alt="Tripulação Artemis II" onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800'">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-crew-1.jpg" 
+                     alt="Tripulação Artemis II"
+                     onerror="this.src='https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800'">
                 <div class="card-content">
-                    <h3>👨‍🚀👩‍🚀👨‍🚀👨‍🚀 Tripulação</h3>
-                    <p><strong>Reid Wiseman (Cmd)</strong> • <strong>Victor Glover (Pilot)</strong> • 
-                    <strong>Christina Koch (Mission Specialist)</strong> • <strong>Jeremy Hansen (Mission Specialist)</strong>
-                    <br>1ª mulher e 1º canadense em voo lunar!</p>
+                    <h3>👨‍🚀👩‍🚀 Tripulação</h3>
+                    <p><strong>Reid Wiseman (Comandante)</strong> • <strong>Victor Glover (Piloto)</strong><br>
+                    <strong>Christina Koch (Especialista)</strong> • <strong>Jeremy Hansen (Especialista)</strong><br>
+                    <strong>1ª mulher e 1º canadense em voo lunar!</strong></p>
                 </div>
             </div>
 
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/sls-artemis-i-liftoff-1.jpg?w=800" alt="Lançamento SLS" onerror="this.src='https://images.unsplash.com/photo-1632854057158-901ae9f83d5b?w=800'">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/sls-artemis-i-liftoff-1.jpg" 
+                     alt="Lançamento SLS"
+                     onerror="this.src='https://images.unsplash.com/photo-1632854057158-901ae9f83d5b?w=800'">
                 <div class="card-content">
                     <h3>🚀 Space Launch System</h3>
-                    <p>Foguete mais poderoso do mundo! <strong>98 metros</strong> de altura. 
-                    8,8 milhões de libras de empuxo. Levará Orion à órbita em 8min!</p>
+                    <p>Foguete mais poderoso do mundo! 98 metros de altura e 8,8 milhões de libras de empuxo.</p>
                 </div>
             </div>
 
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/orion-lunar-flyby-1.jpg?w=800" alt="Orion Lua" onerror="this.src='https://images.unsplash.com/photo-1444080233090-f3f9ca85e4a7?w=800'">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/orion-lunar-flyby-1.jpg" 
+                     alt="Orion na Lua"
+                     onerror="this.src='https://images.unsplash.com/photo-1444080233090-f3f9ca85e4a7?w=800'">
                 <div class="card-content">
                     <h3>🌌 Nave Orion</h3>
-                    <p>Cápsula para 4 astronautas. Voo de <strong>10 dias</strong>. 
-                    1º flyby lunar desde Apollo! Teste vida suporte + comunicações.</p>
+                    <p>Cápsula para 4 astronautas. Missão de ~10 dias com flyby lunar histórico.</p>
                 </div>
             </div>
 
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-mission-1.jpg?w=800" alt="Trajetória Artemis II" onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800'">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-mission-1.jpg" 
+                     alt="Trajetória Artemis II"
+                     onerror="this.src='https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800'">
                 <div class="card-content">
                     <h3>🛰️ Trajetória</h3>
-                    <p>10 dias, 1,3 milhões km! Lançamento Kennedy Space Center. 
-                    Órbita terrestre → Injeção translunar → Flyby Lua → Retorno!</p>
+                    <p>~1,3 milhão de km. Lançamento do Kennedy Space Center → Flyby da Lua → Retorno com sucesso!</p>
                 </div>
             </div>
 
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-art-1.jpg?w=800" alt="Arte Artemis II" onerror="this.src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800'">
+                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/artemis-ii-art-1.jpg" 
+                     alt="Arte Artemis II"
+                     onerror="this.src='https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800'">
                 <div class="card-content">
-                    <h3>🎯 Objetivos</h3>
-                    <p>✅ Testar Orion + SLS com humanos<br>
-                    ✅ Certificar sistemas para pouso lunar<br>
-                    ✅ 1ª mulher + 1º canadense em voo lunar<br>
-                    ✅ Preparar Artemis III (pouso 2026)!</p>
+                    <h3>🎯 Objetivos Cumpridos</h3>
+                    <p>✅ Teste da Orion + SLS com tripulação<br>
+                    ✅ 1ª mulher e 1º canadense em voo lunar<br>
+                    ✅ Preparação para Artemis III (pouso lunar)</p>
                 </div>
             </div>
         </section>
 
         <footer class="footer">
-            <p>🌟 <strong>Artemis II</strong> - A primeira luz da nova era lunar | NASA 2025</p>
-            <p>Desenvolvido com ❤️ | Flask + Azure Static Web App</p>
+            <p>🌟 <strong>Artemis II</strong> - Sucesso da nova era lunar | NASA 2026</p>
+            <p>Desenvolvido com ❤️ | Flask</p>
         </footer>
     </div>
 
     <script>
         // Estrelas animadas
-        for(let i=0;i<100;i++){
-            let star=document.createElement('div');
-            star.className='star';
-            star.style.left=Math.random()*100+'vw';
-            star.style.top=Math.random()*100+'vh';
-            star.style.width=2+Math.random()*3+'px';
-            star.style.height=star.style.width;
-            star.style.animationDelay=Math.random()*2+'s';
+        for(let i=0; i<150; i++){
+            let star = document.createElement('div');
+            star.className = 'star';
+            star.style.left = Math.random()*100 + 'vw';
+            star.style.top = Math.random()*100 + 'vh';
+            star.style.width = 1.5 + Math.random()*3.5 + 'px';
+            star.style.height = star.style.width;
+            star.style.animationDelay = Math.random()*2 + 's';
             document.getElementById('stars').appendChild(star);
         }
     </script>
@@ -181,7 +191,5 @@ def artemis2():
     """
 
 if __name__ == "__main__":
-    port = 5000
-    if 'PORT' in os.environ:
-        port = int(os.environ['PORT'])
-    app.run(host='0.0.0.0', port=port)
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port, debug=True)
