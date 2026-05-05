@@ -104,7 +104,7 @@ def artemis2():
             </div>
 
             <div class="card">
-                <img src="https://www.nasa.gov/wp-content/uploads/2023/11/sls-artemis-i-liftoff-1.jpg" alt="SLS">
+                <img src="https://admin.cnnbrasil.com.br/wp-content/uploads/sites/12/2026/03/artemis-II-imagens-.png?w=419&h=283&crop=0" alt="SLS">
                 <div class="card-content">
                     <h3>🚀 Space Launch System</h3>
                     <p>Foguete mais poderoso do mundo! 98 metros de altura.<br>8,8 milhões de libras de empuxo.</p>
